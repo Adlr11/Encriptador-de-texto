@@ -43,8 +43,7 @@ body{
 }
 
 #textinp::placeholder{
-  color: #0A3871;
-  font-weight: bold;
+  color: #0a387184;
 }
 
 #textinp::-webkit-scrollbar {
