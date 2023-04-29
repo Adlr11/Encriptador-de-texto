@@ -1,0 +1,393 @@
+body{
+  background: #E9ECF8;
+}
+
+#logo{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+  position: absolute;
+  width: 120px;
+  height: 48px;
+  left: 40px;
+  top: 40px;
+
+}
+
+.vector{
+  position: absolute;
+  left: 36.67%;
+  right: 37.43%;
+  top: 0%;
+  bottom: 0%;
+}
+
+#textinp{
+  position: absolute;
+  box-sizing: border-box;
+  width: 60%;
+  left: 11%;
+  top: 18%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 150%;
+  font-weight: bold;
+  line-height: 150%;
+  color: #0A3871;
+  border-color: transparent;
+  background: transparent;
+  outline: none;
+}
+
+#textinp::placeholder{
+  color: #0A3871;
+  font-weight: bold;
+}
+
+#textinp::-webkit-scrollbar {
+  width: 10px;
+  background-color: #E9ECF8;
+}
+
+#textinp::-webkit-scrollbar-thumb {
+  background-color: #0A3871;
+  border-radius: 5px;
+}
+
+
+#rectangle{
+  position: absolute;
+  width: 20%;
+  height: 90%;
+  top: 5%;
+  right: 3%;
+  background: #FFFFFF;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+}
+
+#mensajeOut{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #0A3871;
+  margin: 20px;
+  line-height: 120%;
+}
+
+.muneco{
+  position: absolute;
+  width: 90%;
+  height: auto;
+  left: 7%;
+  top: 30%;
+}
+
+.ningunMensaje{
+  position: absolute;
+  width: 90%;
+  height: auto;
+  left: 5%;
+  top: 67%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 150%;
+  line-height: 120%;
+  text-align: center;
+  color: #343A40;
+}
+
+.ingresaTexto{
+  position: absolute;
+  width: 90%;
+  height: auto;
+  left: 5%;
+  top: 78%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #495057;
+}
+
+#excamation{
+  position: absolute;
+  bottom: 16%;
+  left: 13%;
+  height: auto;
+}
+
+.logoExcamation{
+  float: left;
+  clear: left;
+  margin-right: 3px;
+}
+
+.detalles{
+  width: 120%;
+  height: auto;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #495057;
+  opacity: 0.8;
+}
+
+#encriptar{
+  position: absolute;
+  width: 18%;
+  bottom: 7%;
+  left: 12%; 
+  padding: 24px;
+  height: 67px;
+  background: #0A3871;
+  border-radius: 24px;
+  color: #FFFFFF;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+#desencriptar{
+  position: absolute;
+  width: 18%;
+  bottom: 7%;
+  left: 32%; 
+  padding: 24px;
+  height: 67px;
+  background: #D8DFE8;;
+  border-radius: 24px;
+  color: #0A3871;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+#copiar{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: transparent;
+  border: none;
+}
+
+.copyImg{
+  width: 20px;
+  background: transparent;
+  border: none;
+  color: #0A3871;
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+  body {
+    background: #E9ECF8;
+  }
+
+  #logo {
+    position: absolute;
+    width: 80px;
+    height: 32px;
+    left: 20px;
+    top: 20px;
+  }
+
+  .vector {
+    left: 30%;
+    right: 30%;
+    top: 0;
+    bottom: 0;
+  }
+
+  #textinp {
+    position: absolute;
+    width: 40%;
+    height: 10%;
+    left: 5%;
+    top: 10%;
+    font-size: 120%;
+    line-height: 130%;
+    font-weight: bold;
+  }
+
+  #rectangle {
+      position: absolute;
+      width: 86%;
+      height: 15%;
+      top: 75%;
+      left: 5%;
+      border-radius: 16px;
+      
+  }
+
+  .muneco {
+      display: none;
+  }
+
+  .ningunMensaje {
+    position: absolute;
+    width: 80%;
+    height: auto;
+    left: 10%;
+    top: 25%;
+    font-size: 120%;
+    line-height: 120%;
+  }
+
+  .ingresaTexto {
+    position: absolute;
+    width: 80%;
+    height: auto;
+    left: 10%;
+    top: 45%;
+    font-size: 14px;
+    line-height: 130%;
+  }
+
+  #excamation {
+    position: absolute;
+    bottom: 36%;
+    left: 7%;
+    height: auto;
+  }
+
+  .detalles {
+    font-size: 10px;
+    line-height: 130%;
+  }
+
+  #encriptar {
+    position: absolute;
+    width: 40%;
+    height: 50px;
+    bottom: 30%;
+    left: 5%;
+    font-size: 100%;
+    padding: 16px;
+  }
+
+  #desencriptar {
+    position: absolute;
+    width: 40%;
+    height: 50px;
+    bottom: 30%;
+    left: 51%;
+    font-size: 100%;
+    padding: 16px;
+  }
+
+/* Teléfono */
+@media screen and (max-width: 480px) {
+  body {
+    background: #E9ECF8;
+  }
+
+  #logo {
+    position: absolute;
+    width: 60px;
+    height: 24px;
+    left: 16px;
+    top: 16px;
+  }
+
+  .vector {
+    left: 25%;
+    right: 25%;
+    top: 0;
+    bottom: 0;
+  }
+
+  #textinp {
+    position: absolute;
+    width: 90%;
+    height: 25%;
+    left: 5%;
+    top: 15%;
+    font-size: 110%;
+    line-height: 130%;
+  }
+
+  #rectangle {
+    position: absolute;
+    width: 90%;
+    height: 33%;
+    top: 65%;
+    border-radius: 12px;
+  }
+
+  .muneco {
+      display: none;
+    }
+    
+    .ningunMensaje {
+      position: absolute;
+      width: 90%;
+      height: auto;
+      left: 10px;                                                                                                                                                        ;
+      top: 25%;
+      font-size: 18px;                             
+      line-height: 130%;
+    }
+  
+    .ingresaTexto {
+      position: absolute;
+      width: 90%;
+      height: auto;
+      left: 10px;
+      top: 55%;
+      font-size: 14px;
+      line-height: 130%;
+    }
+    
+    #excamation {
+      position: absolute;
+      top: 40%;
+      left: 5%;
+      width: 90%;
+      height: auto;
+    }
+    
+    .detalles {
+      width: 100%;
+      font-size: 10px;
+      line-height: 130%;
+    }
+    
+    #encriptar {
+      position: absolute;
+      width: 90%;
+      top: 45%;
+      left: 5%;
+      padding: 10px;
+      height: 40px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+    
+    #desencriptar {
+      position: absolute;
+      width: 90%;
+      top: 55%;
+      left: 5%;
+      padding: 10px;
+      height: 40px;
+      border-radius: 20px;
+      font-size: 14px;
+    } 
+  }
+}
