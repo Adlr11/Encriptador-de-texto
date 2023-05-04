@@ -8,14 +8,14 @@ const copiarBtn = document.querySelector("#copiar");
 // Función para encriptar el mensaje
 const encriptar = (mensaje) => {
   const vowels = { a: "ai", e: "enter", i: "imes", o: "ober", u: "ufat" };
-  mensaje = mensaje.toLowercase();
+  mensaje = mensaje.toLowerCase();
   return mensaje.replace(/[aeiou]/g, (v) => vowels[v]);
 };
 
 // Función para desencriptar el mensaje
 const desencriptar = (mensaje) => {
   const vowels = { ai: "a", enter: "e", imes: "i", ober: "o", ufat: "u" };
-  mensaje = mensaje.toLowercase();
+  mensaje = mensaje.toLowerCase();
   return mensaje.replace(/ai|enter|imes|ober|ufat/g, (v) => vowels[v]);
 };
 
